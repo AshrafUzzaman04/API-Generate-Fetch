@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1 id="name"></h1>
+      <h1 id="price"></h1>
+      <img id="image" src="" alt="" />
+      <h1 id="type"></h1>
+      <h1 id="expire_date"></h1>
+    </div>
+
+    <script>
+      fetch("http://localhost/api/api.php?products", { method: "POST" })
+        .then((response) => response.json())
+        .then((data) => {
+          document.querySelector("#name").innerText = data[0].name;
+          document.querySelector("#price").innerText = data[0].price;
+          document.querySelector("#image").src = data[0].image;
+          document.querySelector("#type").innerText = data[0].type;
+          document.querySelector("#expire_date").innerText =
+            data[0].expire_date;
+        });
+    </script>
+  </body>
+</html>

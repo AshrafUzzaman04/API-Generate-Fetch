@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "Pendrive",
+    "price": "500",
+    "image": "https://www.startech.com.bd/image/cache/catalog/pendrive/team/c175/c175-32gb-500x500.jpg",
+    "expire_date": "2023-02-14",
+    "type": "sold"
+  },
+  {
+    "id": "2",
+    "name": "alskjfalksdfjlka",
+    "price": "5452165",
+    "image": "https://www.startech.com.bd/image/cache/catalog/pendrive/team/c175/c175-32gb-500x500.jpg",
+    "expire_date": "2023-02-28",
+    "type": "fasdfasdfasdf"
+  },
+  {
+    "id": "3",
+    "name": "muri",
+    "price": "10",
+    "image": "https://images.news18.com/static-bengali/2022/03/muri1.jpg",
+    "expire_date": null,
+    "type": "sold"
+  },
+  {
+    "id": "4",
+    "name": "vat",
+    "price": "500",
+    "image": "https://eisamay.com/photo/msid-91507684,imgsize-84232/pic.jpg",
+    "expire_date": null,
+    "type": "sold"
+  }
+]
